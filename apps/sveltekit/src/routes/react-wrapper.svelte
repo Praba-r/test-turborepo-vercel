@@ -6,9 +6,8 @@
     export let subpath;
     export let props;
     let reactComponent;
-  
     onMount(() => {
-      import("ui").then((module) => { debugger;
+      import("ui").then((module) => { 
         reactComponent = true;
         const ReactComponent = module.Button;
         const reactContainer = document.createElement('div');
@@ -22,8 +21,5 @@
   </script>
   
   <div>
-    
-      <div id="react-container">
-      </div>
-    
+    <div id="react-container"></div>
   </div>
