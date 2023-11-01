@@ -3,7 +3,7 @@
     let childWindow;
 
     function openChildWindow() {
-        childWindow = window.open("http://localhost:3001/", "ChildWindow", "width=400,height=300");
+        childWindow = window.open("https://test-turborepo-vercel-docs.vercel.app/", "ChildWindow", "width=400,height=300");
     }
 
     function sendMessageToChild() {
